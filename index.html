@@ -38,12 +38,15 @@
         body {
         font-family: "Dosis";
         }
+        #card-body{
+        background-color: #add8e6	;
+        }
 
     </style>
 </head>
 
 <body>
-    <nav class="navbar bg-primary-subtle">
+    <nav class="navbar" style="background-color:#add8e6">
         <div class="container-fluid">
             <a class="navbar-brand ms-4" href="#">
                 <!-- Adicione a classe "logo-img" para tornar a imagem responsiva -->
@@ -86,7 +89,7 @@
 
         <div class="container d-flex justify-content-center col-12">
             <div class="row justify-content-center">
-                <div class="card col-12 col-md-4 my-3 mx-3" style="width: 18rem">
+                <div class="card col-12 col-md-4 my-3 mx-3" style="width: 18rem" id="card-body">
                     <img src="familia-jovem-com-seus-filhos-em-casa-se-divertindo.jpg" class="card-img-top" />
                     <div class="card-body justify-content-center">
                         <p class="lead">Seguro Automóvel</p>
@@ -96,7 +99,7 @@
                         </p>
                     </div>
                 </div>
-                <div class="card col-12 col-md-4 my-3 mx-3" style="width: 18rem">
+                <div class="card col-12 col-md-4 my-3 mx-3" style="width: 18rem" id="card-body">
                     <img src="familia-jovem-com-seus-filhos-em-casa-se-divertindo.jpg" class="card-img-top" />
                     <div class="card-body">
                         <p class="lead">Seguro Empresarial</p>
@@ -106,9 +109,9 @@
                         </p>
                     </div>
                 </div>
-                <div class="card col-12 col-md-4 my-3 mx-3" style="width: 18rem">
+                <div class="card col-12 col-md-4 my-3 mx-3" style="width: 18rem" id="card-body">
                     <img src="familia-jovem-com-seus-filhos-em-casa-se-divertindo.jpg" class="card-img-top" />
-                    <div class="card-body">
+                    <div class="card-body" id="card-body">
                         <p class="lead">Seguro de Vida</p>
                         <p class="card-text">
                             Some quick example text to build on the card title and make up the
@@ -129,7 +132,7 @@
             </div>
 
 
-        <div class="card rounded mt-5" style="width: 100%;">
+        <div class="card rounded mt-5" style="width: 100%;" id="card-body">
             <div class="row g-0">
                 <div class="col-md-6">
                     <div class="lead">
@@ -180,7 +183,7 @@
             </div>
 
             <div class="container mt-5 mb-5">
-                <div class="card mb-5" style="width: 100%;">
+                <div class="card mb-5" style="width: 100%;" id="card-body">
                     <div class="card-body">
                       <h5 class="card-title">Solicite uma análise</h5>
                       <div class="col">
@@ -279,9 +282,8 @@
             <!-- Grid container -->
           
             <!-- Copyright -->
-            <div class="text-center text-dark p-3" style="background-color: rgba(0, 0, 0, 0.2);">
-              © 2020 Copyright:
-              <a class="text-dark" href="https://mdbootstrap.com/">MDBootstrap.com</a>
+            <div class="text-center text-dark p-3" id="card-body">
+              <a class="text-dark" href="https://mdbootstrap.com/">© 2023 Copyright</a>
             </div>
             <!-- Copyright -->
           </footer>
