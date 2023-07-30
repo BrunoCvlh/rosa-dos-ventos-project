@@ -47,24 +47,24 @@
         }
 
     </style>
+    <script src="index.js"></script>
 </head>
-
 <body>
     <nav class="navbar" style="background-color:cornflowerblue">
         <div class="container-fluid">
             <a class="navbar-brand ms-4" href="#">
                 <!-- Adicione a classe "logo-img" para tornar a imagem responsiva -->
-                <img src="LogoSemFundo.png" id="logo-img" class="img-fluid">
+                <img src="./images/LogoSemFundo.png" id="logo-img" class="img-fluid">
             </a>
             <form class="d-flex me-4">
-                <button class="btn btn-primary" type="button">
+                <button class="btn btn-primary" type="button" id="btnDown" onclick="clickDoMouse()">
                     Entre em Contato
                 </button>
             </form>
         </div>
     </nav>
 
-        <img src="background-rosa-no-canto.png" class="img-fluid" alt="Imagem de Fundo">
+        <img src="./images/background-rosa-no-canto.png" class="img-fluid" alt="Imagem de Fundo">
 
 
         <div class="container mt-4 mb-5">
@@ -86,7 +86,7 @@
         <div class="container d-flex justify-content-center col-12">
             <div class="row justify-content-center">
                 <div class="card col-12 col-md-4 my-3 mx-3 shadow-lg" style="width: 18rem" id="card-body">
-                    <img src="familia-jovem-com-seus-filhos-em-casa-se-divertindo.jpg" class="card-img-top mt-2" />
+                    <img src="./images/familia-jovem-com-seus-filhos-em-casa-se-divertindo.jpg" class="card-img-top mt-2" />
                     <div class="card-body justify-content-center">
                         <p class="lead">Seguro Automóvel</p>
                         <p class="card-text">
@@ -96,7 +96,7 @@
                     </div>
                 </div>
                 <div class="card col-12 col-md-4 my-3 mx-3 shadow-lg" style="width: 18rem" id="card-body">
-                    <img src="familia-jovem-com-seus-filhos-em-casa-se-divertindo.jpg" class="card-img-top mt-2" />
+                    <img src="./images/familia-jovem-com-seus-filhos-em-casa-se-divertindo.jpg" class="card-img-top mt-2" />
                     <div class="card-body">
                         <p class="lead">Seguro Empresarial</p>
                         <p class="card-text">
@@ -106,7 +106,7 @@
                     </div>
                 </div>
                 <div class="card col-12 col-md-4 my-3 mx-3 shadow-lg" style="width: 18rem" id="card-body">
-                    <img src="familia-jovem-com-seus-filhos-em-casa-se-divertindo.jpg" class="card-img-top mt-2" />
+                    <img src="./images/familia-jovem-com-seus-filhos-em-casa-se-divertindo.jpg" class="card-img-top mt-2" />
                     <div class="card-body" id="card-body">
                         <p class="lead">Seguro de Vida</p>
                         <p class="card-text">
@@ -131,7 +131,7 @@
             <div class="container px-4" id="segunda-div-txt-img">
                 <div class="row flex-row-reverse">
                     <div class="col-lg-6 col">
-                        <img src="familia-jovem-com-seus-filhos-em-casa-se-divertindo.jpg" style="border-color: cornflowerblue;"
+                        <img src="./images/familia-jovem-com-seus-filhos-em-casa-se-divertindo.jpg" style="border-color: cornflowerblue;"
                         class="img-fluid img-responsive rounded-pill shadow-lg p-0 mb-5 bg-body-tertiary rounded">
                     </div>
                   <div class="col-lg-6 coll text-align-center">
@@ -221,5 +221,4 @@
             integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz"
             crossorigin="anonymous"></script>
 </body>
-
 </html>
